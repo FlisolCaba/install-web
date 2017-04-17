@@ -1,0 +1,97 @@
+/* HTML overrides */
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+a, a:hover, a:active, a:focus {
+  color: #FFFFFF;
+}
+
+/* Color Pallet */
+
+.dark-primary-color {
+  background: #214760;
+}
+.dark-primary-text-color {
+  color: #214760;
+}
+.text-primary-color {
+  color: #FFFFFF;
+}
+.primary-text-color {
+  color: #212121;
+}
+.accent-color {
+  background-color: #ff8e2a;
+}
+
+/* Bootstrap 'overrides' */
+
+.row {
+  padding: .7em 0;
+  width: 70%;
+}
+
+/* Custom Rules */
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  flex-basis: auto;
+  flex-direction: column;
+}
+
+.texto {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+.texto h1 {
+  font-size: 2.5em !important;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4em;
+}
+
+.btn-lg{
+  width: 100%;
+  text-align: center;
+}
+
+.description{
+  font-size: 1.3em;
+  text-align: justify;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.33;
+}
+
+.row span,
+.row a{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.row-img{
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-full{
+  width: 100%;
+  background-color: transparent !important;
+  border: 1px solid #ff8e2a;
+}
